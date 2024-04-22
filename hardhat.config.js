@@ -32,12 +32,12 @@ module.exports = {
       accounts: [process.env.PKEY],
     },
     tbsc: {
-      url: process.env.TEST_BSC_RPC,
+      url: process.env.TBSC_RPC,
       chainId: process.env.TEST_BSC_CID * 1,
       accounts: [process.env.PKEY],
     },
     tpol: {
-      url: process.env.TEST_POL_RPC,
+      url: process.env.TPOL_RPC,
       chainId: process.env.TEST_POL_CID * 1,
       accounts: [process.env.PKEY],
     },
