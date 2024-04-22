@@ -18,32 +18,32 @@ module.exports = {
     },
     bsc: {
       url: process.env.BSC_RPC,
-      chainId: process.env.BSC_CID,
+      chainId: process.env.BSC_CID * 1,
       accounts: [process.env.PKEY],
     },
     pol: {
       url: process.env.POL_RPC,
-      chainId: process.env.POL_CID,
+      chainId: process.env.POL_CID * 1,
       accounts: [process.env.PKEY],
     },
     sep: {
       url: process.env.SEP_RPC,
-      chainId: process.env.SEP_CID,
+      chainId: process.env.SEP_CID * 1,
       accounts: [process.env.PKEY],
     },
     tbsc: {
       url: process.env.TEST_BSC_RPC,
-      chainId: process.env.TEST_BSC_CID,
+      chainId: process.env.TEST_BSC_CID * 1,
       accounts: [process.env.PKEY],
     },
     tpol: {
       url: process.env.TEST_POL_RPC,
-      chainId: process.env.TEST_POL_CID,
+      chainId: process.env.TEST_POL_CID * 1,
       accounts: [process.env.PKEY],
     },
     eth: {
       url: process.env.ETH_RPC,
-      chainId: process.env.ETH_CID,
+      chainId: process.env.ETH_CID * 1,
       accounts: [process.env.PKEY],
     },
   },
